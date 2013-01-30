@@ -3,6 +3,8 @@ parseLRC
 
 parseLRC是一个javascript版本的轻量级LRC歌词解析器。使用非常简单，没有任何依赖。
 
+项目博客：http://labs.cross.hk/html/1652.html
+
 使用parseLRC可以将下面的lrc歌词：
 <pre>
 [00:00.50]《同心高举十架》
