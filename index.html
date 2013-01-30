@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="keywords" content="一个非常轻量的LRC歌词解析器,lyric解析" />
+    <meta name="description" content="一个非常轻量的LRC歌词解析器,lyric解析" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0;" name="viewport" />
+    <title>一个非常轻量的LRC歌词解析器</title>
+    <style type="text/css">
+        body{
+            padding:5px;
+            margin:0;
+            font-size:16px;
+            text-align:center;
+        }
+        textarea{
+            border:1px solid #dedede;
+            border-radius:10px;
+        }
+        .parse-btn{
+            display:block;
+            width:120px;
+            height:40px;
+            text-align:center;
+            background:#f50;
+            color:#fff;
+            font-size:20px;
+            border-radius:10px;
+            border:1px solid #df4c03;
+            margin:10px auto;
+            line-height:40px;
+            box-shadow: 0px 0 8px #666;
+            cursor:pointer;
+        }
+        #J-parseResult{
+            width:300px;
+            line-height:20px;
+            margin:10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="parseLRC.js"></script>
+</head>
+<body>
+<div>
+    <p>把LRC歌词复制进来：</p>
+    <textarea id="J-lyric" cols="60" rows="10" autofocus></textarea>
+    <span class="parse-btn" id="J-parse">解析</span>
+    <div id="J-parseResult"></div>
+    <script type="text/javascript">
+        document.getElementById("J-parse").onclick = function (){
+            var lyric = document.getElementById("J-lyric").value;
+            if(lyric){
+                document.getElementById("J-parseResult").innerHTML = parseLRC(lyric);
+            }
+        };
+    </script>
+</div>
+</body>
+</html>

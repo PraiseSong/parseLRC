@@ -1,4 +1,5 @@
 function parseLRC(lyric){
+    lyric = lyric.replace(/(^\s*)|(\s*$)/g,"");
 	var times = lyric.match(/\[[^\u4e00-\u9fa5|a-z|A-Z]+([^\[|\:|\]|]+)/g);
     var html = '';
 
