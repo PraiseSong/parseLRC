@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5349f1c0-8331-4824-87d8-39286b96ef79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/parseLRC.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parseLRC.js" afterPath="$PROJECT_DIR$/parseLRC.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="parseLRC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="parseLRC.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parseLRC.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parseLRC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="522" selection-end="522" vertical-scroll-proportion="0.37465563">
+            <state line="11" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.42636746">
               <folding />
             </state>
           </provider>
@@ -64,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/parseLRC.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -295,7 +299,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parseLRC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="522" selection-end="522" vertical-scroll-proportion="0.37465563">
+        <state line="11" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.42636746">
           <folding />
         </state>
       </provider>
