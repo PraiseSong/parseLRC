@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5349f1c0-8331-4824-87d8-39286b96ef79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="parseLRC.iws" />
@@ -37,7 +36,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.42636746">
+            <state line="36" column="26" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.8078541">
               <folding />
             </state>
           </provider>
@@ -306,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.42636746">
+        <state line="36" column="26" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.8078541">
           <folding />
         </state>
       </provider>
